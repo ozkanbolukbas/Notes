@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:hint="Add a title"
+        android:layout_weight="0.3"
+        android:id="@+id/titleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FAFAFA"
+        android:padding="8dp"
+        android:textSize="24sp"
+        tools:text="Some Title" />
+
+    <EditText
+        android:layout_weight="2"
+        android:hint="Jot something..."
+        android:id="@+id/contentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FAFAFA"
+        tools:text="To Do List:\n - Buy milk\n - Lorem ipsum"
+        android:gravity="top"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp" />
+    <CheckBox
+        android:layout_weight="0.2"
+        android:id="@+id/public_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Public"
+        android:background="#FAFAFA"
+        tools:text="Public"
+        android:gravity="top"
+        android:padding="8dp" />
+
+</LinearLayout>
